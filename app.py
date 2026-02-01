@@ -9,8 +9,8 @@ import torchvision.transforms as T
 
 from model import MyViT
 
-USE_WEBCAM = True   # True → webcam, False → mp4
-VIDEO_PATH = "F4.mp4"
+USE_WEBCAM = False   # True → webcam, False → mp4
+VIDEO_PATH = "F4.mp4" #You can change the video to any other Terrain.
 
 class readCamera:
     def __init__(self, use_webcam=False, video_path=None):
